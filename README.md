@@ -2,7 +2,7 @@
 
 >WebSite built with SCSS for style, MobX, Bootstrap, EmailJs, PostgreSQL, Axios, NodeJs.
 
-
+Photos for products are taken from the site - [Militarist](https://militarist.ua/ua/)
 ### User Interface
 
 ![alt](https://res.cloudinary.com/dzoqjwumy/image/upload/v1673468400/Armors/UserInterface_tv32tm.png)
