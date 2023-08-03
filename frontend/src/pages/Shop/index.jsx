@@ -20,7 +20,7 @@ const Shop = observer(() => {
       product.setProducts(data.rows);
       product.setTotalCount(data.count);
     });
-  }, []);
+  }, [product]);
 
   useEffect(() => {
     fetchProduct(
@@ -32,7 +32,7 @@ const Shop = observer(() => {
       product.setProducts(data.rows);
       product.setTotalCount(data.count);
     });
-  }, [product.page, product.selectedType, product.selectedBrand]);
+  }, [product.page, product.selectedType, product.selectedBrand,product]);
 
   return (
     <Container>

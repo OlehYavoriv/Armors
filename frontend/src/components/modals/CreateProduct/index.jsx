@@ -20,7 +20,7 @@ const CreateProduct = observer(({ show, onHide }) => {
   useEffect(() => {
     fetchTypes().then((data) => product.setTypes(data));
     fetchBrands().then((data) => product.setBrands(data));
-  }, []);
+  }, [product]);
 
   const selectFile = (e) => {
     setFile(e.target.files[0]);
